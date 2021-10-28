@@ -678,6 +678,10 @@ footer .footer_text span {
   display: none;
 }
 
+.info_text_mobile {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .container {
     max-width: 720px;
@@ -909,6 +913,100 @@ footer .footer_text span {
   .online {
     position: relative;
     left: -100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .privateCatering .image_block {
+    height: 160px;
+  }
+  .privateCatering .private_info {
+    padding: 0;
+  }
+  .privateCatering .private_info .title {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .info_text {
+    display: none;
+  }
+  .info_text_mobile {
+    display: block;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 55px;
+    line-height: 13px;
+    margin-bottom: 28px;
+  }
+  .privateCatering .private_info .private_btn .btn_item:first-child {
+    width: 45%;
+    height: 35px;
+  }
+  .privateCatering .private_info .private_btn .btn_item {
+    font-size: 14px;
+  }
+  .privateCatering {
+    height: 160px;
+  }
+  .container {
+    max-width: 280px;
+  }
+  .who .title {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+  }
+  .who .who_img {
+    height: 160px;
+  }
+  .who .title {
+    height: 160px;
+  }
+  .who .who_bottom_wrapper .item_title {
+    font-size: 20px;
+  }
+  .who .item_text {
+    font-size: 10px;
+  }
+  .hello .hello_list .item h2 {
+    font-size: 17px;
+  }
+  .hello {
+    display: none;
+  }
+  .map .map_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .map .map_img {
+    width: 100%;
+  }
+  .map {
+    height: 100%;
+  }
+  .map .form_item {
+    width: 100%;
+  }
+  footer {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  footer .footer_text {
+    font-size: 10px;
+  }
+  .footer_img img {
+    width: 100px;
+    height: 25px;
+  }
+  .mobile_active img {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
